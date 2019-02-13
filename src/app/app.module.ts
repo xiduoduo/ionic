@@ -39,6 +39,7 @@ import {
 import {
   SplashScreen
 } from '@ionic-native/splash-screen';
+import { RestProvider } from '../providers/rest/rest';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import {
     {
       provide: ErrorHandler,
       useClass: IonicErrorHandler
-    }
+    },
+    RestProvider
   ]
 })
 export class AppModule {}
