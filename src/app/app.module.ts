@@ -27,6 +27,9 @@ import {
   MorePage
 } from '../pages/more/more';
 import {
+  LoginPage
+} from '../pages/login/login';
+import {
   NotificationPage
 } from '../pages/notification/notification'
 import {
@@ -48,6 +51,7 @@ import { RestProvider } from '../providers/rest/rest';
     DiscoveryPage,
     ChatPage,
     MorePage,
+    LoginPage,
     NotificationPage,
     TabsPage
   ],
@@ -62,6 +66,7 @@ import { RestProvider } from '../providers/rest/rest';
     DiscoveryPage,
     ChatPage,
     MorePage,
+    LoginPage,
     NotificationPage,
     TabsPage
   ],
