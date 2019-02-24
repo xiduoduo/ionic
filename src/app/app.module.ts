@@ -13,7 +13,9 @@ import {
 import {
   MyApp
 } from './app.component';
-
+import {
+  HttpModule
+} from '@angular/http';
 import {
   HomePage
 } from '../pages/home/home';
@@ -57,6 +59,7 @@ import { RestProvider } from '../providers/rest/rest';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
